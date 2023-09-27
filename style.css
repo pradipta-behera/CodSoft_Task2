@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:wght@300;400&family=Rubik+Vinyl&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B2430;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+
+
+}
+
+.navbar a {
+    color: #EEEEEE;
+    font-family: 'Inclusive Sans', sans-serif;
+    font-weight: 400;
+}
+
+.logo {
+    font-size: 30px;
+    padding-left: 10%;
+    font-weight: 700;
+}
+
+.links {
+    display: flex;
+    gap: 1.5rem;
+    padding-right: 10%;
+}
+
+.links a:hover {
+    color: #93B1A6;
+}
+
+.main{
+    padding-left: 12rem;
+    color: #F1EFEF;
+    padding-top: 10rem;
+    font-family: 'Roboto', sans-serif;
+}
+.main p{
+    padding-right: 36rem;
+    font-size: 17px;
+    font-weight: 300;
+}
+.socials a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    color: #F1EFEF;
+    border: 2px #F1EFEF;
+    border-radius: 50%;
+    font-size: 25px;
+    margin: 10px 15px 10px 0;
+}
+
+.socials a:hover {
+    background-color: #F1EFEF;
+    color: #1B2430;
+}
+
+.btn {
+    position: absolute;
+
+    /* left: 23.5rem; */
+    padding: 1rem 1.5rem;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    white-space: nowrap;
+    color: black;
+    background-color: #F1EFEF;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 1.5px 10px 30px #000;
+}
+
+.btn:hover {
+    color: var(--primary-color);
+    background-color: rgb(113, 175, 223);
+    transition: 0.6s;
+}
+
+.image {
+    position: relative;
+    padding-right: 38rem;
+    float: right;
+
+}
+
+.image img {
+    box-shadow: 30px 20px 30px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    transform: translateY(-50%);
+}
