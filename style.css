@@ -12,10 +12,26 @@ body {
     width: 100%;
     position: relative;
     scroll-behavior: smooth;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .page1 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B2430;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B2430;
+}
+.page3 {
+    height: 100vh;
+    width: 100vw;
+    background-color: #1B2430;
+}
+.page4 {
     height: 100vh;
     width: 100vw;
     background-color: #1B2430;
@@ -60,17 +76,19 @@ li {
     color: #93B1A6;
 }
 
-.main{
+.main {
     padding-left: 12rem;
     color: #F1EFEF;
     padding-top: 10rem;
     font-family: 'Roboto', sans-serif;
 }
-.main p{
+
+.main p {
     padding-right: 36rem;
     font-size: 17px;
     font-weight: 300;
 }
+
 .socials a {
     display: inline-flex;
     justify-content: center;
@@ -125,5 +143,205 @@ li {
     position: absolute;
     transform: translateY(-66%);
     object-fit: cover;
+
+}
+
+.skills_container {
+    color: #F1EFEF;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+.skills_content {
+    color: #F1EFEF;
+
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.frontend {
+    justify-content: space-between;
+}
+hr{
+    height:2px;
+    border-width:0;
+    color:#F1EFEF;
+    background-color:#F1EFEF;
+}
+
+.frontend h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.frontend_content {
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.frontend_content h3 {
+    position: relative;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px;
+    color: #F1EFEF;
+
+}
+
+.frontend_content p {
+    justify-content: center;
+    text-align: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+/* .content{
+    padding-left: 3rem;
+} */
+.content img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background: #EEEEEE;
+    border-radius: 40%;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.backend {
+    justify-content: space-between;
+    padding-top: 1rem;
+}
+
+.backend h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1rem;
+}
+.backend h2 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.backend_content {
+    display: flex;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    padding-top: 1rem;
+    align-items: center;
+    text-align: center;
+}
+
+.backend_content h3 {
+    position: relative;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 30px;
+    color: #F1EFEF;
+
+}
+
+.backend_content p {
+    justify-content: center;
+    text-align: center;
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+.portfolio_container h1{
+    color: #F1EFEF;
+    padding-left: 12rem;
+    padding-top: 2rem;
+}
+.portfolio_container p{
+    color: #F1EFEF;
+    padding-left: 12rem;
+    padding-top: 1rem;
+    padding-right: 4rem;
+}
+.portfolio_content{
+    margin-top: 65px;
+    display: flex;
+}
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.work img{
+    width: 300px;
+    height:300px ;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
     
+}
+.contact{
+    padding-top:1rem;
+}
+.contact_container{
+    display: flex;
+    color: #F1EFEF;
+    padding-left: 12rem;
+}
+.contact_left{
+    flex-basis: 35%;
+}
+.contact_left h1{
+    padding-top: 1rem;
+}
+.contact_left p{
+    margin-top: 30px;
+}
+.contact_left p i{
+    color: #F1EFEF;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.contact_right{
+    flex-basis: 60%;
+}
+.contact_right form{
+    width: 100%;
+}
+form input,textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background:#3f4853;
+    padding: 15px;
+    margin: 15px;
+    color: #F1EFEF;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 15px
+    
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    color: #F1EFEF;
+    font-weight: 300;
+    padding-top: 20rem;
+    font-weight: 400;
 }
