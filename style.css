@@ -89,11 +89,10 @@ li {
 }
 
 .main p {
-    padding-right: 38rem;
-    text-align: center;
+    padding-right: 36rem;
+    /* text-align: center; */
     font-size: 17px;
     font-weight: 300;
-    /* padding-top: 20px; */
 }
 
 .socials a {
@@ -116,8 +115,6 @@ li {
 
 .btn {
     position: absolute;
-
-    /* left: 23.5rem; */
     padding: 1rem 1.5rem;
     outline: none;
     border: none;
@@ -201,9 +198,7 @@ li {
     padding-right: 3rem;
     padding-left: 3rem;
 }
-/* .content{
-    padding-left: 3rem;
-} */
+
 .content img {
     position: relative;
     width: 60px;
@@ -268,13 +263,15 @@ li {
     margin-top: 2%;
 }
 
-.portfolio_container h1,p{
+.portfolio_container h1{
     text-align: center;
     color: #F1EFEF;
 } 
 
 .portfolio_container p{
     margin-top: 2%;
+    text-align: center;
+    color: #F1EFEF;
 }
 
 .porfolio_content{
@@ -305,7 +302,6 @@ li {
     width: 400px;
     height: 250px;
     object-fit: cover;
-    border-radius: 20px;
 }
 
 .porfolio_content img:hover{
@@ -321,18 +317,19 @@ li {
 .contact_container{
     display: flex;
     color: #F1EFEF;
-    padding-left: 12rem;
+    padding-left: 16rem;
+    padding-top: 2rem;
 }
 .contact_left{
     flex-basis: 35%;
 }
 .contact_left h1{
     padding-top: 1rem;
-    text-align: center;
+    /* text-align: center; */
 }
 .contact_left p{
     margin-top: 30px;
-    text-align: center;
+    /* text-align: center; */
 }
 .contact_left p i{
     color: #F1EFEF;
