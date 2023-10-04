@@ -89,7 +89,7 @@ li {
 }
 
 .main p {
-    padding-right: 36rem;
+    padding-right: 38rem;
     text-align: center;
     font-size: 17px;
     font-weight: 300;
@@ -305,6 +305,7 @@ li {
     width: 400px;
     height: 250px;
     object-fit: cover;
+    border-radius: 20px;
 }
 
 .porfolio_content img:hover{
