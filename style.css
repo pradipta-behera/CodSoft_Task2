@@ -90,8 +90,10 @@ li {
 
 .main p {
     padding-right: 36rem;
+    text-align: center;
     font-size: 17px;
     font-weight: 300;
+    /* padding-top: 20px; */
 }
 
 .socials a {
