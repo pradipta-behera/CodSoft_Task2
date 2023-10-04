@@ -170,12 +170,6 @@ li {
 .frontend {
     justify-content: space-between;
 }
-hr{
-    height:2px;
-    border-width:0;
-    color:#F1EFEF;
-    background-color:#F1EFEF;
-}
 
 .frontend h2 {
     justify-content: center;
