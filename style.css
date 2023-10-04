@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&family=Roboto:wght@300;400&family=Rubik+Vinyl&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +13,7 @@ body {
     position: relative;
     scroll-behavior: smooth;
     overflow-x: hidden;
+    font-family: 'Roboto', sans-serif;
 }
 
 .page1 {
