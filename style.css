@@ -258,38 +258,7 @@ hr{
     padding-right: 3rem;
     padding-left: 3rem;
 }
-.portfolio_container h1{
-    color: #F1EFEF;
-    padding-left: 12rem;
-    padding-top: 2rem;
-}
-.portfolio_container p{
-    color: #F1EFEF;
-    padding-left: 12rem;
-    padding-top: 1rem;
-    padding-right: 4rem;
-}
-.portfolio_content{
-    margin-top: 65px;
-    display: flex;
-}
-.work{
-    border-radius: 10px;
-    position: relative;
-    overflow: hidden;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-}
-.work img{
-    width: 300px;
-    height:300px ;
-    border-radius: 10px;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    
-}
+
 .contact{
     padding-top:1rem;
 }
